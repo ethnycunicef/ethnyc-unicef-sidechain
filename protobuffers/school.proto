@@ -1,0 +1,53 @@
+syntax = "proto3";
+package protobuffers;
+
+message School {
+    string ens_host = 65;
+    string address = 55;
+    string admin0 = 1;
+    string admin1 = 2;
+    string admin2 = 3;
+    string admin3 = 4;
+    string admin4 = 5;
+    string admin_code = 6;
+    string admin_id = 7;
+    string altitude = 8;
+    string availability_connectivity = 9;
+    string connectivity = 10;
+    string country_code = 11;
+    string datasource = 12;
+    string description = 13;
+    string educ_level = 14;
+    string electricity = 15;
+    string environment = 16;
+    string frequency = 17;
+    string latency_connectivity = 18;
+    string lat = 19;
+    string lon = 20;
+    string name = 21;
+    string num_classrooms = 22;
+    string num_latrines = 23;
+    string num_teachers = 24;
+    string num_students = 25;
+    string num_sections = 26;
+    string phone_number = 27;
+    string postal_code = 28;
+    string speed_connectivity = 29;
+    string type_connectivity = 30;
+    string type_school = 31;
+    string water = 32;
+    string created_at = 33;
+    string updated_at = 34;
+    string probe_id = 35;
+    string probe_provider = 36;
+    string isp_id = 37;
+    string school_id = 38;
+    string id_0 = 39;
+    string id_1 = 40;
+    string id_2 = 41;
+    string id_3 = 42;
+    string id_4 = 43;
+    string id_5 = 44;
+}
+
+// state address = ens/isp/district/school

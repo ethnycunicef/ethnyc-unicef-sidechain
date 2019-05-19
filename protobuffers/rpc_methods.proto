@@ -1,0 +1,24 @@
+syntax = "proto3";
+package protobuffers;
+
+import "school.proto";
+
+enum Method {
+    CREATE_SCHOOL = 0;
+    CREATE_BID = 1;
+}
+
+message RPCRequest {
+    oneof method {
+        Create_School create_school = 1;
+        Create_Bid create_bid = 2;
+    }
+}
+
+message Create_School {
+    School params = 1;
+}
+
+message Create_Bid {
+    repeated string addresses  = 1;
+}
